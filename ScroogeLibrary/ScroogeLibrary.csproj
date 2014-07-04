@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{28CE575C-E4AF-4288-9B97-7A330417C03F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{D481A371-6736-459E-AAFD-251561D57147}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleTransactionExporter.Launcher</RootNamespace>
-    <AssemblyName>SimpleTransactionExporter.Launcher</AssemblyName>
+    <RootNamespace>ScroogeLibrary</RootNamespace>
+    <AssemblyName>ScroogeLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,21 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Primitives.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ScroogeLibrary\ScroogeLibrary.csproj">
-      <Project>{d481a371-6736-459e-aafd-251561d57147}</Project>
-      <Name>ScroogeLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SimpleTransactionExporter\SimpleTransactionExporter.csproj">
-      <Project>{106df23d-c706-49fd-9d70-6961d5f58e1c}</Project>
-      <Name>SimpleTransactionExporter</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
