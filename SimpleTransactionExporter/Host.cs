@@ -8,6 +8,9 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
+using Microsoft.Scripting.Hosting;
+using IronPython.Hosting;
+
 namespace SimpleTransactionExporter
 {
 	public class SimpleTransactionExporter
@@ -24,6 +27,9 @@ namespace SimpleTransactionExporter
 
 		public bool LoadAllTransactions()
 		{
+            var engine = Python.CreateEngine();
+
+
 			return true;
 		}
 	}

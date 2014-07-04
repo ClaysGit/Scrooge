@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTransactionExporter.Launcher", "SimpleTransactionExporter.Launcher.csproj", "{28CE575C-E4AF-4288-9B97-7A330417C03F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTransactionExporter.Launcher", ".\SimpleTransactionExporter.Launcher\SimpleTransactionExporter.Launcher.csproj", "{28CE575C-E4AF-4288-9B97-7A330417C03F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTransactionExporter", "..\SimpleTransactionExporter\SimpleTransactionExporter.csproj", "{106DF23D-C706-49FD-9D70-6961D5F58E1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTransactionExporter", ".\SimpleTransactionExporter\SimpleTransactionExporter.csproj", "{106DF23D-C706-49FD-9D70-6961D5F58E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScroogeLibrary", "..\ScroogeLibrary\ScroogeLibrary.csproj", "{D481A371-6736-459E-AAFD-251561D57147}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MintCloudClient", "..\MintCloudClient\MintCloudClient.pyproj", "{E686C92F-82CB-46FE-9ABD-E149359A94D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScroogeLibrary", ".\ScroogeLibrary\ScroogeLibrary.csproj", "{D481A371-6736-459E-AAFD-251561D57147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

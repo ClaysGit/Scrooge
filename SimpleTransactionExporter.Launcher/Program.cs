@@ -14,9 +14,9 @@ namespace SimpleTransactionExporter.Launcher
 		{
 			var transactionDownloader = new SimpleTransactionExporter();
 
-			var csv = transactionDownloader.GetUnflaggedTransactions();
+			var csv = transactionDownloader.LoadAllTransactions();
 
-			Console.Write( String.Format( "Received response {0} characters long\n", csv.Length ) );
+			Console.Write( "Received response XX characters long\n" );
 		}
 	}
 }
